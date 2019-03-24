@@ -1,0 +1,207 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+.cover {
+background:url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oldalcim {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding:0 10vw;
+}
+
+.tagline {
+  padding: 2vh;
+  padding-bottom: 0;
+  color: white;
+}
+
+hr{
+  width:33%;
+  color: white;
+}
+
+.headline{
+  font-family:Great Vibes;
+  font-size: 4rem;
+  color: #d2ba87;
+  padding: 3vw;
+  white-space: nowrap;
+}
+
+.date{
+  color: white;
+  padding-bottom: 2vh;
+}
+
+/* Helyszínek formázása */
+
+.location{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  color: #444349;
+}
+
+.dobozok{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+h6{
+    font-size: 2rem;
+    font-family:Great Vibes;
+    padding:5vh;
+    text-align: center;
+  }
+
+.helyszinek{
+  font-family: 'Libre Baskerville', serif;
+  font-size:1.5rem;
+  text-align: center;
+  padding: 2vh;
+}
+
+img{
+  width:30%;
+  height:30%;
+  position: relative;
+  left: 35%;
+  padding-bottom: 5vh;
+    }
+
+address{
+  font-family: 'Libre Baskerville', serif;
+  font-size:0.8rem;
+  text-align: center;
+  padding-bottom: 0vh;
+}
+
+/* Programok formázása */
+
+.programok{
+  background-color:hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba87;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+h5{
+  font-style: italic;
+  font-size: 1rem;
+  padding-top: 0;
+  padding-bottom: 5vh;
+}
+
+ul{
+  width: 33%;
+  text-align: left;
+  position: relative;
+  left: 25%;
+  padding-bottom: 2vh;
+  }
+
+/* Ajándékok formázása */
+
+.ajándékok{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+p{
+  padding-bottom: 2vh;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Kérdések formázása */
+
+.kérdések{
+  background-color:hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba87;
+  align-content: center;
+  align-items: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.dobozok2{
+  text-align: left;
+  padding-bottom: 2vh;
+  font-size: 12px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+a{
+  color: rgba(215, 183, 44, 1);
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.kapcsolat{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+footer{
+  background-color: #606060;
+  color: #d2ba87;
+  width:100vw;
+  display: flex;
+  flex-direction: line;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 12px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
